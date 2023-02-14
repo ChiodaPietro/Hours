@@ -27,4 +27,11 @@ public class HourHM  extends  Hour{
         }
         return false;
     }
+    @Override
+    public boolean equals(HourSec o) {
+        if (getHours()==o.getHours()){
+            return getMinutes() == o.getMinutes();
+        }
+        return false;
+    }
 }

@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cddb3069-452b-476f-889f-e8a55321fc36" name="Changes" comment="i am behind">
-      <change afterPath="$PROJECT_DIR$/src/Main/ConvertHourHM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main/ConvertHourSec.java" afterDir="false" />
+    <list default="true" id="cddb3069-452b-476f-889f-e8a55321fc36" name="Changes" comment="finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Convert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/ConvertHourHM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/ConvertHourHM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/Hour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Hour.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/HourHM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/HourHM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main/HourSec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/HourSec.java" afterDir="false" />
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676278590013</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished">
+      <created>1676364037208</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676364037208</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,6 +107,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="i am behind" />
-    <option name="LAST_COMMIT_MESSAGE" value="i am behind" />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main/Main.java</url>
+          <line>3</line>
+          <properties class="Main.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

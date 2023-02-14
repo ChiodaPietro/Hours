@@ -37,4 +37,5 @@ public abstract class Hour {
     }
     public abstract int compareTo(Hour o);
     public abstract boolean equals(Hour o);
+    public abstract boolean equals(HourSec o);
 }

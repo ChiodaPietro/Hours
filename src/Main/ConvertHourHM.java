@@ -6,6 +6,9 @@ public class ConvertHourHM extends HourHM implements Convert{
     public ConvertHourHM(int hours, int minutes) throws InputMismatchException {
         super(hours,minutes);
     }
+
+
+
     @Override
     public double convert(HourSec[] hourSecs){
         double tot=0;

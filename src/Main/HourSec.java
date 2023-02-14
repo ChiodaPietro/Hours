@@ -16,13 +16,23 @@ public class HourSec  extends Hour{
     }
 
     @Override
-    public boolean equals(Hour o) {
+    public boolean equals(HourSec o) {
         if (getHours()==o.getHours()){
             if(getMinutes()==o.getMinutes()){
-                return true;
+                if(seconds==o.getSeconds()){
+
+                    return true;
+                }
             }
         }
         return false;
+    }
+    @Override
+    public boolean equals(Hour o){
+       if(getHours()==o.getHours()){
+           return getMinutes()==o.getMinutes();
+       }
+       return false;
     }
     public int getSeconds(){
        return seconds;
